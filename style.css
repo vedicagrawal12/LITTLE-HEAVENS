@@ -66,3 +66,60 @@ footer { background-color: #4b0082; color: white; text-align: center; padding: 1
   color: #f0e6ff;
   margin-top: 5px;
 }
+/* Media Query for screens under 768px */
+@media (max-width: 768px) {
+  /* Header adjustments */
+  header {
+    padding: 1rem;
+    text-align: center;
+  }
+  header .logo {
+    max-width: 120px;
+    height: auto;
+    margin: 0 auto;
+  }
+  header h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-top: .5rem;
+  }
+
+  /* Navbar: hide standard links, show hamburger */
+  nav .nav-links {
+    display: none;
+  }
+  nav .hamburger {
+    display: block;
+  }
+
+  /* Make sections stack vertically with spacing */
+  section {
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Make images responsive */
+  section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Text resizing */
+  p, li {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  /* Button adjustments */
+  .btn {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+}
+
