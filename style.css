@@ -122,4 +122,28 @@ footer { background-color: #4b0082; color: white; text-align: center; padding: 1
     font-size: 1rem;
   }
 }
+/* Base styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+  background: #fff;
+}
+nav .logo img {
+  height: 60px;
+}
+nav .nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+nav .nav-links li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Hamburger hidden by
 
