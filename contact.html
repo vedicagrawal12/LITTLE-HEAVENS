@@ -138,13 +138,17 @@
       </div>
 
       <div class="contact-form">
-        <form action="#" method="post">
-          <input type="text" placeholder="Your Name" required />
-          <input type="email" placeholder="Your Email" required />
-          <input type="text" placeholder="Phone Number" required />
-          <textarea placeholder="Your Message" required></textarea>
-          <button type="submit">Send Message</button>
-        </form>
+       <form action="https://formspree.io/f/xwpqkegb" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <input type="text" name="phone" placeholder="Phone Number" required />
+  <textarea name="message" placeholder="Your Message" required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+
       </div>
     </div>
   </main>
