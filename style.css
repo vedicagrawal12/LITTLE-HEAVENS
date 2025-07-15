@@ -76,17 +76,24 @@ footer { background-color: #4b0082; color: white; text-align: center; padding: 1
   margin-bottom: 30px;
 }
 
-.gallery-item {
-  width: 250px;
-  overflow: hidden;
-  border-radius: 12px;
-  border: 3px solid #ddd;
-  transition: transform 0.5s ease, border 0.3s ease, box-shadow 0.3s ease;
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-.gallery-item:hover {
-  border-color: #2196f3;
-  box-shadow: 0 10px 25px rgba(33, 150, 243, 0.3);
-  transform: scale(1.05);
+.gallery-item {
+  width: 250px;
+  padding: 5px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.gallery-item img {
+  border-radius: 12px;
+  width: 100%;
+  display: block;
 }
 
