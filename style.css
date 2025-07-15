@@ -215,3 +215,135 @@ background: radial-gradient(circle at bottom, #2c3e50, #000000);
     opacity: 0;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4ff;
+  color: #222;
+  line-height: 1.6;
+}
+
+.contact-section {
+  padding: 60px 20px;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 50px;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  flex-wrap: wrap;
+}
+
+.contact-left {
+  flex: 1 1 45%;
+}
+
+.contact-left h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.contact-left p, .contact-left a {
+  margin: 10px 0;
+  color: #555;
+}
+
+.contact-left a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.info-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.info-grid h4 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-right {
+  flex: 1 1 45%;
+  background: #f9fbff;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.contact-right h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+input, select, textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  flex: 1;
+}
+
+textarea {
+  resize: none;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #3b82f6;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+small {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #888;
+}
+
+small a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .input-row {
+    flex-direction: column;
+  }
+}
