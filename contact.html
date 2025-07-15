@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - Snappy Style</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <div class="header-top">
-    <img src="logo.png" alt="Little Heavens School Logo" class="logo">
-    <div class="school-title">
-      <h1>Little Heavens School</h1>
-      <p class="tagline">A nationally awarded English medium school</p>
+  <section class="contact-section">
+    <div class="contact-container">
+      <div class="contact-left">
+        <h1>Contact Us</h1>
+        <p>Email, call, or complete the form to learn how Snappy can solve your messaging problem.</p>
+        <p><strong>Email:</strong> info@snappy.io</p>
+        <p><strong>Phone:</strong> 321-221-231</p>
+        <a href="#">Customer Support</a>
+
+        <div class="info-grid">
+          <div>
+            <h4>Customer Support</h4>
+            <p>Our support team is available around the clock to address any concerns or queries you may have.</p>
+          </div>
+          <div>
+            <h4>Feedback and Suggestions</h4>
+            <p>Your input is crucial in shaping the future of Snappy.</p>
+          </div>
+          <div>
+            <h4>Media Inquiries</h4>
+            <p>Contact media@snappyapp.com for press or media questions.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <h2>Get in Touch</h2>
+        <p>You can reach us anytime</p>
+        <form>
+          <div class="input-row">
+            <input type="text" placeholder="First name" required>
+            <input type="text" placeholder="Last name" required>
+          </div>
+          <input type="email" placeholder="Your email" required>
+          <div class="input-row">
+            <select>
+              <option>+91</option>
+              <option>+62</option>
+              <option>+1</option>
+            </select>
+            <input type="text" placeholder="Phone number" required>
+          </div>
+          <textarea placeholder="How can we help?" rows="4" required></textarea>
+          <button type="submit">Submit</button>
+          <small>By contacting us, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</small>
+        </form>
+      </div>
     </div>
-  </div>
-
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="academics.html">Academics</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="admissions.html">Admissions</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="login.html">Login</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-
-<section><h2>Contact Us</h2><p>Address: Civil Lines, Shahdol, MP<br>Phone: +91-9425181905<br>Email: info@littleheavens.edu.in</p></section>
-
-  </main>
-  <footer><p>&copy; 2025 Little Heavens School. All rights reserved.</p></footer>
+  </section>
 </body>
 </html>
